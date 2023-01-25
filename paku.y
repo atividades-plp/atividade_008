@@ -19,7 +19,7 @@ int yyparse();
 %token PLUS MINUS DIVIDE TIMES
 %token P_LEFT P_RIGHT
 %token MOD
-%token EXIT
+%token POW
 
 %left PLUS MINUS
 %left MOD
